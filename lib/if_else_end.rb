@@ -3,7 +3,7 @@
 current_time = Time.now
 current_time = current_time.to_i
 
-if TRUE
+if current_time.even? == 0
   puts "Even!"
 else
   puts "Odd!"
